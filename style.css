@@ -1,0 +1,101 @@
+
+html {
+	/*Making the root element as big as the page*/
+	height: 100vh;/*vh viewport height*/
+	width: 100vw;/*vw viewport width*/
+	overflow-x:hidden;
+}
+
+body {
+	/*body should be as big as html parent*/
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  height: 100%;
+  background-color: #1d1d1d;
+  padding: 5%;
+
+  
+}
+.right {
+  width: 50%;
+  height: 100%;
+  background-color: #737373;
+  padding: 5%;
+
+  
+}
+.letterR {
+  background-color: #940035;
+  color: white;
+  width: 100px;
+  flex-direction: row;
+  justify-content: start;
+  align-self:start;
+ 
+}
+.letterG {
+  background-color: #00e95d;
+  color: white;
+  width: 100px;
+  flex-direction: row;
+  justify-content: center;
+  align-self:center;
+  
+}
+.letterB {
+  background-color: #000f94;
+  color: white;
+  width: 100px;
+  flex-direction: row;
+  justify-content: end;
+  align-self:end;
+  
+}
+.letterM {
+  background-color:#94006b ;
+  color: white;
+  width: 100px;
+  flex-direction: row-reverse;
+  justify-content: end;
+  align-self:end;
+  
+}
+.letterC {
+  background-color: #00cde9;
+  color: white;
+  width: 100px;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-self:center;
+}
+.letterY {
+  background-color: #e9df00;
+  color: white;
+  width: 100px;
+  flex-direction: row-reverse;
+  justify-content: start;
+  align-self:start;
+  
+}
+.letter1 {
+  display: flex;
+  height: 100%;
+  width: 300px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+.letter2 {
+  display: flex;
+  height: 100%;
+  width: 300px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
